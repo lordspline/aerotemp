@@ -7,11 +7,9 @@ module.exports = withPWA({
     disable: process.env.NODE_ENV === 'development',
   },
   env: {
-    siteTitle: 'Your Company',
-    siteDescription: 'Your company description.',
-    siteKeywords: 'your company keywords',
-    siteUrl: 'https://notioncapture.vercel.app',
-    siteImagePreviewUrl: '/images/preview.png',
-    twitterHandle: '@your_handle'
+    siteTitle: 'Aeromancer',
+    siteDescription: 'AI Codecs for Cloud Gaming.',
+    siteKeywords: 'cloud gaming artificial intelligence compression codecs',
+    siteUrl: 'https://aeromancer.vercel.app',
   },
 })
